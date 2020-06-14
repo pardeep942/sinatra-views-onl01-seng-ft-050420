@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   
-  get '/IS do
+  get '/IS' do
     "<h1>Hello World</h1>"
 end
   
